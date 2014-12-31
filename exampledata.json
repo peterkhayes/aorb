@@ -4,17 +4,27 @@
       "decisions": {
         "1": true,
         "2": true
+      },
+      "friends": {
+        "baba": true,
+        "steve": true
       }
     },
     "baba": {
       "decisions": {
         "1": true,
         "2": true
+      },
+      "friends": {
+        "ali": true
       }
     },
     "steve": {
       "decisions": {
         "1": true
+      },
+      "friends": {
+        "ali": true
       }
     }
   },
