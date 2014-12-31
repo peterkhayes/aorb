@@ -1,0 +1,42 @@
+{
+  "users": {
+    "ali": {
+      "decisions": {
+        "1": true,
+        "2": true
+      }
+    },
+    "baba": {
+      "decisions": {
+        "1": true,
+        "2": true
+      }
+    },
+    "steve": {
+      "decisions": {
+        "1": true
+      }
+    }
+  },
+  "decisions": {
+    "1": {
+      "name": "Lunch",
+      "option1": "AK Subs",
+      "option2": "Brainwash",
+      "members": {
+        "ali": true,
+        "baba": true,
+        "steve": true
+      }
+    },
+    "2": {
+      "name": "Dinner",
+      "option1": "Green Chili Kitchen",
+      "option2": "Pacific Catch",
+      "members": {
+        "ali": true,
+        "baba": true
+      }
+    }
+  }
+}

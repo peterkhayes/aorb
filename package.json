@@ -7,7 +7,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "~0.11.2",
     "browserify": "3.46.1",
     "firebase": "~2.0.6",
     "reactfire": "~0.4.0",
@@ -31,6 +30,7 @@
     "gulp-less": "~2.0.1",
     "gulp-watch": "~3.0.0",
     "gulp-livereload": "~3.0.2",
-    "react-forms": "~0.6.3"
+    "fastclick": "~1.0.3",
+    "react": "~0.12.2"
   }
 }

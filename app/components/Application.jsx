@@ -1,30 +1,27 @@
 var React = require("react");
-var AuthView = require("./AuthView");
-var MainView = require("./MainView");
-var DecideView = require("./DecideView");
+var MainView = require("./MainView.jsx");
+var LoginView = require("./LoginView.jsx");
 
-var getInitialState = function() {
-
-};
 
 var App = React.createClass({
+
   getInitialState: function() {
     return {
-      username: null,
-      currentDecision: null
-    }
+      username: ""
+    };
   },
 
   render: function() {
     var username = this.state.username;
-    var currentDecision = this.state.currentDecision;
     if (!username) {
-      return <AuthView />
-    } else if (currentDecision) {
-      return <DecideView username={username} decision={currentDecision}/>
+      return <LoginView submit={this._login}/>
     } else {
       return <MainView username={username}/>
     }
+  },
+
+  _login: function(username) {
+    this.setState({username: username})
   }
 });
 
